@@ -7,7 +7,7 @@ import SimpleHTTPServer
 def kill():
     os.system("kill -KILL " + str(os.getpid()))
 
-os.chdir("/home/amigos/ros/src/opust_monitor/topic_server")
+os.chdir("/home/exito/ros/src/opust_monitor/topic_server")
 host = 'localhost'
 port = 8000
 #httpd = HTTPServer(("", port), SimpleHTTPRequestHandler)
